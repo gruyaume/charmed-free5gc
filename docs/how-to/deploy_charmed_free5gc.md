@@ -10,5 +10,5 @@ free5GC must be installed on a Kubernetes cluster with the following specificati
 ## Install free5GC
 
 ```bash
-juju deploy free5gc-pcf --trust
+juju deploy free5gc-pcf-operator --trust --channel=edge
 ```
